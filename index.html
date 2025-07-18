@@ -6,16 +6,18 @@
     <title>Jared Daniel Verana - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
+                <li><a href="#projects"><i class="fas fa-user"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#about"><i class="fas fa-diagram-project"></i> About</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -23,8 +25,14 @@
     <main>
         <section id="home" class="hero">
             <div class="hero-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-                <h1>Welcome</h1>
-                <p>Jared Daniel Verana | Grade 12 ICT Student</p>
+                <h1>Hi There!<span class="wave">👋🏻</span></h1>
+                <h6 class="hero-heading">
+                    <span class="white-text">I'm</span> <span class="purple-text">JARED DANIEL VERANA</span>
+                </h6>
+                <h1 class="hero-heading">
+                    <span class="typewriter"></span><span class="cursor">|</span>
+                </h1>
+
                 <a href="#projects" class="btn">View My Work</a>
             </div>
         </section>
@@ -38,13 +46,13 @@
                     <h3>iFind: A Lost and Found System</h3>
                         <p class="project-caption">A Web-Based Solution for Lost and Found Management in Colegio De San Jose, Project for Grade 12 ICT Research & Development, Made with HTML and CSS, Built with Passion by Group of ICT Students. 
                         <span class="tagline"><em>Smart system, simple solution.</em></span></p>
-                    <a href="https://docs.google.com/document/d/1ZP0_Oui6i-S4zJLh83d0e0a48Wi70QDbn_nswTY2ycc/edit?usp=sharing" target="_blank" class="btn-small">View Details</a>
+                    <a href="https://docs.google.com/document/d/1ZP0_Oui6i-S4zJLh83d0e0a48Wi70QDbn_nswTY2ycc/edit?usp=sharing" target="_blank" class="view-details-btn">View Details</a>
                 </div>
                 <div class="project-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                     <img src="attendance.png" alt="Project 2">
                     <h3>Attendance Compliance & Absences Monitoring Platform</h3>
                     <p class="project-caption">An Attendance Compliance & Absences Monitoring Platform is designed to address the persistent challenge of absenteeism in educational institutions. Traditional methods, such as manual roll calls and paper-based records, are often inefficient and prone to errors, leading to difficulties in tracking student attendance accurately.</p>
-                    <a href="https://docs.google.com/document/d/1wkF5-k5qWUDSLRjFv8IV5pv9glTNlVssRNnCBV4ntKE/edit?usp=sharing" target="_blank" class="btn-small">View Details</a>
+                    <a href="https://docs.google.com/document/d/1wkF5-k5qWUDSLRjFv8IV5pv9glTNlVssRNnCBV4ntKE/edit?usp=sharing" target="_blank" class="view-details-btn">View Details</a>
                 </div>
             </div>
         </section>
@@ -124,6 +132,46 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
     AOS.init();
+</script>
+
+<script>
+const texts = [
+  "Grade 12 ICT Student",
+  "Future BSIT"
+];
+
+let count = 0;
+let index = 0;
+let currentText = '';
+let letter = '';
+let isDeleting = false;
+
+function type() {
+  currentText = texts[count];
+
+  if (isDeleting) {
+    letter = currentText.slice(0, --index);
+  } else {
+    letter = currentText.slice(0, ++index);
+  }
+
+  document.querySelector(".typewriter").textContent = letter;
+
+  let typingSpeed = isDeleting ? 80 : 120;
+
+  if (!isDeleting && letter.length === currentText.length) {
+    typingSpeed = 2000;
+    isDeleting = true;
+  } else if (isDeleting && letter.length === 0) {
+    isDeleting = false;
+    count = (count + 1) % texts.length;
+    typingSpeed = 500;
+  }
+
+  setTimeout(type, typingSpeed);
+}
+
+type();
 </script>
 </body>
 </html>
