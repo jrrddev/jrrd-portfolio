@@ -454,6 +454,7 @@ header {
     color: white;
     padding: 2rem;
     border-radius: 8px;
+    text-align: left;
 }
 
 .contact-info h3 {
