@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Daniel Verana - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <h1>Welcome</h1>
+                <p>Jared Daniel Verana | Grade 12 ICT Student</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <img src="lost and found pic.png" alt="Project 1">
+                    <h3>iFind: A Lost and Found System</h3>
+                        <p class="project-caption">A Web-Based Solution for Lost and Found Management in Colegio De San Jose, Project for Grade 12 ICT Research & Development, Made with HTML and CSS, Built with Passion by Group of ICT Students. 
+                        <span class="tagline"><em>Smart system, simple solution.</em></span></p>
+                    <a href="https://docs.google.com/document/d/1ZP0_Oui6i-S4zJLh83d0e0a48Wi70QDbn_nswTY2ycc/edit?usp=sharing" target="_blank" class="btn-small">View Details</a>
+                </div>
+                <div class="project-card" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <img src="attendance.png" alt="Project 2">
+                    <h3>Attendance Compliance & Absences Monitoring Platform</h3>
+                    <p class="project-caption">An Attendance Compliance & Absences Monitoring Platform is designed to address the persistent challenge of absenteeism in educational institutions. Traditional methods, such as manual roll calls and paper-based records, are often inefficient and prone to errors, leading to difficulties in tracking student attendance accurately.</p>
+                    <a href="https://docs.google.com/document/d/1wkF5-k5qWUDSLRjFv8IV5pv9glTNlVssRNnCBV4ntKE/edit?usp=sharing" target="_blank" class="btn-small">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html">10%</div>
+                    </div>
+                </div>
+                <div class="skill" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css">10%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">About Me</h2>
+            <div class="about-content">
+                <img src="jrrdpic.jpeg" alt="Student Photo" class="profile-img" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="about-text" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <h3>Jared Daniel Verana</h3>
+                    <p>Hey there! I'm a Grade 12 TVL ICT student from Colegio de San Jose. I'm into techy stuff like basic coding, tweaking Android systems, and exploring how things work behind the scenes.</p>
+                    <p>During senior high, I’ve done projects that helped me build skills in web development. I’m planning to take BSIT in college and keep pushing my passion for tech even further.</p>
+                    <p>Outside of school, I’m either out biking, gaming, or messing around with Android mods just for fun.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <form class="contact-form" action="https://formspree.io/f/mgvzvypl" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                     <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                    <button type="submit" class="btn">Send Message</button>
+    </form>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-envelope"></i> testmeacc123@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 09560658812</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Colegio De San Jose, Jaro Iloilo City, Philippines</p>
+                    <div class="social-links">
+                        <a href="https://github.com/sRaizel" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/share/16x5teNANk/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/jrrd_nyts?igsh=MXFjbm5vYmNtOGV5ag==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Grade 12 ICT Portfolio. All rights reserved.</p>
+    </footer>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+    AOS.init();
+</script>
+</body>
+</html>
