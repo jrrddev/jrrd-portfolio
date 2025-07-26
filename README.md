@@ -39,7 +39,6 @@
 
 ## 🌐 Connect with Me
 
-- 💬 Instagram: `[https://www.instagram.com/jrrd_nyts?igsh=MXFjbm5vYmNtOGV5ag==]`
 - 📱 Facebook: [https://www.facebook.com/share/16x5teNANk/]
 - 🌍 Let’s connect and build cool stuff together!
 
