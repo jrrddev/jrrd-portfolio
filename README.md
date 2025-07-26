@@ -29,13 +29,6 @@
 
 ---
 
-## 🌐 Connect with Me
-
-- 📱 Facebook: [https://www.facebook.com/share/16x5teNANk/]
-- 🌍 Let’s connect and build cool stuff together!
-
----
-
 _“Think it. Code it. Build it.”_
 
 ![Snake animation](https://github.com/jrrddev/jrrddev/blob/output/github-contribution-grid-snake.svg)
