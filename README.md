@@ -1,4 +1,4 @@
-# 👋 Hey there, I'm Syn4ps3
+# 👋 Hey there, I'm jrrd
 
 🎓 I'm a Grade 12 TVL-ICT student from Iloilo, Philippines, on the path to taking **BS Computer Science (BSCS)**.  
 💻 I love building tech projects, learning programming, and exploring how things work behind the screen.  
