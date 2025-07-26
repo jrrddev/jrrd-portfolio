@@ -29,14 +29,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-![Syn4ps3's GitHub stats](https://github-readme-stats.vercel.app/api?username=Syn4ps3&show_icons=true&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Syn4ps3&layout=compact&theme=tokyonight)
-
----
-
 ## 🌐 Connect with Me
 
 - 📱 Facebook: [https://www.facebook.com/share/16x5teNANk/]
