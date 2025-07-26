@@ -37,3 +37,5 @@
 ---
 
 _“Think it. Code it. Build it.”_
+
+![Snake animation](https://github.com/jrrddev/jrrddev/blob/output/github-contribution-grid-snake.svg)
